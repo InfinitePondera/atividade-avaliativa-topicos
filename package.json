@@ -1,0 +1,17 @@
+{
+  "name": "at-avaliativa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.5.4"
+  },
+  "dependencies": {
+    "random": "^2.1.1"
+  }
+}
