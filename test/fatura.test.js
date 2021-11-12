@@ -59,7 +59,6 @@ describe('Fatura', () => {
         ]
 
         var retornoEsperado = [
-            fatura1,
             fatura2,
             fatura3,
             fatura4
@@ -67,6 +66,6 @@ describe('Fatura', () => {
     
         faturas = filtrarFaturaEntre3000e2500eData(faturas);
 
-        expect(faturas).toEqual(faturas);
+        expect(faturas).toEqual(retornoEsperado);
     })
 });
