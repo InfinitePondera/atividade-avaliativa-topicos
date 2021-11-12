@@ -28,6 +28,6 @@ describe('Fatura', () => {
     
         faturas = filtrarFaturaAcimaDeDoisMil(faturas);
 
-        expect(faturas).toEqual(faturas);
+        expect(faturas).toEqual(retornoEsperado);
     })
 });
