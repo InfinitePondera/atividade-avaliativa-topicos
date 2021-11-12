@@ -68,4 +68,21 @@ describe('Fatura', () => {
 
         expect(faturas).toEqual(retornoEsperado);
     })
+
+    test('Fatura maior que 4000 e pertence a região sul', () => {
+        var faturas = [
+            fatura1,
+            fatura2,
+            fatura3,
+            fatura4
+        ]
+
+        var retornoEsperado = [
+            fatura4
+        ]
+    
+        faturas = filtrarAcimaDe4000(faturas);
+
+        expect(faturas).toEqual(retornoEsperado);
+    })
 });
